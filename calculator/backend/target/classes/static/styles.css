@@ -1,0 +1,57 @@
+
+.btn-1 {
+    background-color: rgb(247, 242, 242);
+    border: 1px solid darkgrey;
+    color: black; 
+    width: 70px; 
+    height: 70px;
+    font-style: bold;
+    font-size: medium;
+  }
+  .btn-1:hover {
+      background-color: darkgray;
+  }
+  .btn-2 {
+    background-color: cornflowerblue; 
+    border: 1px solid darkgrey;
+    color: black; 
+    width: 70px; 
+    height: 70px;
+    font-style: bold;
+    font-size: medium;
+  }
+  .btn-2:hover{
+      background-color: rgba(100, 148, 237, 0.63);
+  }
+
+  .btn-3 {
+    background-color: lightgray; 
+    border: 1px solid darkgrey;
+    color: black; 
+    width: 70px; 
+    height: 70px;
+    font-style: bold;
+    font-size: medium;
+  }
+  .btn-3:hover {
+      background-color: darkgray;
+  }
+
+  .tb {
+    margin-top: 100px; 
+    justify-content: center;
+    align-items: center;
+    display: grid;
+  }
+  .result {
+    text-align: right;
+    border:1px solid;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    width: 300px;
+    height: 60px;
+    overflow: auto;
+    
+  }

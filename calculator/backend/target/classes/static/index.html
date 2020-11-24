@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculator</title>
+  <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="tb">
+      <table>
+
+        <tr>
+          <div class="result"> {{ num }} </div>
+        </tr>
+        <tr>
+          <td><button class="btn-3" @click="percent">%</button></td>
+          <td><button class="btn-3" @click="clear">CE</span></button></td>
+          <td><button class="btn-3" @click="clear">C</button></td>
+          <td><button class="btn-3" @click="backSpace">⌫</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn-3" @click="oneOverX">1/𝑥</button></td>
+          <td><button class="btn-3" @click="sqr">𝑥<span>&#178;</span></button></td>
+          <td><button class="btn-3" @click="sqrt"><span>&#8730;</span>𝑥</button></td>
+          <td><button class="btn-3" @click="div"><span>&#247;</span></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn-1" @click="seven">7</button></td>
+          <td><button class="btn-1" @click="eight">8</button></td>
+          <td><button class="btn-1" @click="nine">9</button></td>
+          <td><button class="btn-3" @click="mul"><span>&#215;</span></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn-1" @click="four">4</button></td>
+          <td><button class="btn-1" @click="five">5</button></td>
+          <td><button class="btn-1" @click="six">6</button></td>
+          <td><button class="btn-3" @click="sub">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn-1" @click="one">1</button></td>
+          <td><button class="btn-1" @click="two">2</button></td>
+          <td><button class="btn-1" @click="three">3</button></td>
+          <td><button class="btn-3" @click="add">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn-1" @click="negative">+/-</button></td>
+          <td><button class="btn-1" @click="zero">0</button></td>
+          <td><button class="btn-1" @click="dot">.</button></td>
+          <td><button class="btn-2" @click="equal">=</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Import App -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./main.js"></script>
+  <!--Mount App-->
+  <script>
+    const mountedApp = app.mount('#app')
+  </script>
+
+</body>
+
+</html>
