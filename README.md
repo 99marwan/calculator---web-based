@@ -1,5 +1,6 @@
 # calculator---web-based
 A web based application makes simple operations like adding numbers , subtracting , multiplying , division , percent , power and fraction. 
+it works like windows calculator in its calculations
 Using vue.js and spring boot.
 
 ![Capture](https://user-images.githubusercontent.com/54478282/128617538-3994c1d5-2563-472e-939a-b48b2f5f96cc.PNG)
