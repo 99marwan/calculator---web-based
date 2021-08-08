@@ -2,7 +2,7 @@
 A web based application makes simple operations like adding numbers , subtracting , multiplying , division , percent , power and fraction. 
 Using vue.js and spring boot.
 
-
+![Capture](https://user-images.githubusercontent.com/54478282/128617538-3994c1d5-2563-472e-939a-b48b2f5f96cc.PNG)
 
 Assumptions:
 - The user can enter only 18 digits as an input.
